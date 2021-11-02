@@ -336,6 +336,13 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@greenvillage-io/nestjs-console@7.0.0":
+  version "7.0.0"
+  resolved "https://npm.pkg.github.com/download/@greenvillage-io/nestjs-console/7.0.0/24e3f86f85131d5dc7f6918f21c5e9d6de1f67a7ba6b81be0a4efe99843d04f2#38637d419e80565646d738b54810fbc12149516e"
+  integrity sha512-OvamajtPleDxY9u2OyQ++XpvBT2Qmbo7NSZKYZJwkoWFyloT08Bsf4fFBI2woGCx11LrBoFRe2wVCZLLW8SvwA==
+  dependencies:
+    ora "5.4.1"
+
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.5.0.tgz#1407967d4c6eecd7388f83acf1eaf4d0c6e58ef9"
@@ -3102,13 +3109,6 @@ neo-async@^2.6.0:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
-
-nestjs-console@7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/nestjs-console/-/nestjs-console-7.0.0.tgz#b2fe1c38c5836ba9322e46c408cd6d9e02f26daa"
-  integrity sha512-TtmPTnNLRmI2nK6/fZwujKBmsadkESzRQUdsaAlLtjE5wUMdCuYBdQrUVKeIO50nTj6TVWRwAlAUBiXLXKJAIg==
-  dependencies:
-    ora "5.4.1"
 
 node-fetch@^2.6.1:
   version "2.6.6"

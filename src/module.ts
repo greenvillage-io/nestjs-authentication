@@ -1,5 +1,5 @@
+import { ConsoleModule } from '@greenvillage-io/nestjs-console';
 import { DynamicModule, Global, MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
-import { ConsoleModule } from 'nestjs-console';
 import * as passport from 'passport';
 
 import { IAuthModuleAsyncOptions, IAuthModuleOptions } from './interfaces/options';

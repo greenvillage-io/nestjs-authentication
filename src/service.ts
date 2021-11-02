@@ -1,6 +1,6 @@
+import { Command, Console } from '@greenvillage-io/nestjs-console';
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { createCipheriv } from 'crypto';
-import { Command, Console } from 'nestjs-console';
 
 import { IEncrypt, IEncryptOptions } from './interfaces/encrypt';
 import { IJwtPayload } from './interfaces/jwt.payload';
